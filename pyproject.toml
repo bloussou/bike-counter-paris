@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bike-counter-paris"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+atoti = "^0.6.2"
+atoti-jupyterlab = "^0.6.2"
+atoti-aws = "^0.6.2"
+
+[tool.poetry.dev-dependencies]
+nb-black = "^1.0.7"
+black = "^21.9b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
